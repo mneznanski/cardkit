@@ -53,7 +53,7 @@ angular.module('cardkitApp')
         },
         elements: {
           background: {
-            name: 'Background Colour',
+            name: 'Background Color',
             type: 'rect',
             height: function() {
               return $scope.size.height;
