@@ -24,6 +24,11 @@ angular.module('cardkitApp')
           height: 320,
         },
         {
+          name: 'Instagram',
+          width: 510,
+          height: 510,
+        },
+        {
           name: 'Video',
           width: 640,
           height: 360,
@@ -155,7 +160,7 @@ angular.module('cardkitApp')
           subtext: {
             name: 'Subtext',
             type: 'text',
-            text: 'Created by The Times of London\nAvailable on GitHub at github.com/times/cardkit',
+            text: 'Created by The Times of London\nModified by EO Media Group Digital',
             fill: function() {
               return $scope.theme.quote;
             },
